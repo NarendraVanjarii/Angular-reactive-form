@@ -1,0 +1,7 @@
+<div class = "form">
+<label for="username">Enter Username: </label>
+ <input type="text" name="username" [formControl] = 'formUsernm'>
+ <button type="submit" (click)="onSubmit(formUsernm.value)">Submit</button>
+
+    <h1>{{data}}</h1>
+</div>
